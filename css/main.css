@@ -3,13 +3,93 @@
  * Only one current step has the `present` class.
  * When a step is shown (selected) its element gets the class of "active" and 
  * the body element gets the class `impress-on-ID` where ID is the step's id.
+ * #42ED70
  */
+
+body
+{
+  font-family: 'Roboto', sans-serif;
+  background-color: #eee;
+  color: #444;
+
+}
+
+h1, h2, h3, h4, h5
+{
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.step.title h1
+{
+  font-size: 7rem;
+
+}
+
+.step h2
+{
+  font-size: 4rem;
+}
+
+.step
+{
+  width: 900px;
+  padding: 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.step .quote
+{
+  border-left: 5px solid #666;
+  padding-left: 1rem;
+  color: #666;
+}
+
+.step .author
+{
+  font-size: 2rem;
+  color: #51BF28;
+}
+
+.step .small
+{
+  font-size:2rem;
+}
+
+a, a:visited
+{
+  color: #51BF28;
+  text-decoration: none;
+  border-bottom: 1px solid #459627;
+}
+
+a:hover
+{
+  text-decoration: none;
+  border-bottom: 3px solid #459627;
+}
 
 .notes {
     display:none;
 }
 
-.step h2 {
-    font-size: 78px;
-    font-weight: bold;
+.hulk
+{
+  color: #51BF28;
+  font-weight: 700;
+}
+.list.emphasis
+{
+  list-style-type:none;
+}
+.list.emphasis li
+{
+  font-size:5rem;
+  font-weight: 700;
 }
