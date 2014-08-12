@@ -5,9 +5,23 @@
         "class": "step title",
         "data": {
             "x": 0,
-            "y": 0,
+            "y": -3000,
             "z": 0,
             "scale": 4,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 0
+        }
+    },
+    {
+        "uri": "intro.html",
+        "id": "intro",
+        "class": "step",
+        "data": {
+            "x": 5500,
+            "y": 0,
+            "z": 0,
+            "scale": 3,
             "rotate-x": 0,
             "rotate-y": 0,
             "rotate-z": 0
@@ -18,11 +32,25 @@
         "id": "what-is-automation-really",
         "class": "step",
         "data": {
-            "x": 3000,
-            "y": 0,
+            "x": 0,
+            "y": 3000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "scaffolding.html",
+        "id": "scaffolding",
+        "class": "step",
+        "data": {
+            "x": -1000,
+            "y": 3000,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 90,
             "rotate-y": 0,
             "rotate-z": 90
         }
@@ -32,11 +60,11 @@
         "id": "automating-a-task",
         "class": "step",
         "data": {
-            "x": 6000,
-            "y": 0,
+            "x": 3000,
+            "y": 3000,
             "z": 0,
             "scale": 1,
-            "rotate-x": 90,
+            "rotate-x": 0,
             "rotate-y": 0,
             "rotate-z": 90
         }
@@ -46,8 +74,22 @@
         "id": "gulp-and-grunt-task-runners",
         "class": "step",
         "data": {
-            "x": 9000,
-            "y": 0,
+            "x": 3000,
+            "y": 6000,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "automate-your-automation.html",
+        "id": "automate-your-automation",
+        "class": "step",
+        "data": {
+            "x": 3000,
+            "y": 9000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
@@ -60,8 +102,8 @@
         "id": "teh-grunt",
         "class": "step",
         "data": {
-            "x": 12000,
-            "y": 0,
+            "x": 2000,
+            "y": 5500,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
@@ -74,8 +116,8 @@
         "id": "gulp",
         "class": "step",
         "data": {
-            "x": 15000,
-            "y": 0,
+            "x": 2000,
+            "y": 6500,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
@@ -88,13 +130,27 @@
         "id": "code-vs-config",
         "class": "step",
         "data": {
-            "x": 18000,
-            "y": 0,
+            "x": 1000,
+            "y": 6000,
             "z": 0,
-            "scale": 1,
+            "scale": 2,
             "rotate-x": 0,
             "rotate-y": 0,
             "rotate-z": 90
+        }
+    },
+    {
+        "uri": "know-your-workflow.html",
+        "id": "know-your-workflow",
+        "class": "step",
+        "data": {
+            "x": 1500,
+            "y": 6000,
+            "z": 0,
+            "scale": 4,
+            "rotate-x": 90,
+            "rotate-y": 0,
+            "rotate-z": 180
         }
     },
     {
@@ -102,13 +158,13 @@
         "id": "thought-use-solutions-for-problems",
         "class": "step",
         "data": {
-            "x": 21000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 0,
+            "x": 1500,
+            "y": 6000,
+            "z": -3500,
+            "scale": 4,
+            "rotate-x": 90,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 180
         }
     },
     {
@@ -116,8 +172,8 @@
         "id": "your-workflow-needs",
         "class": "step",
         "data": {
-            "x": 24000,
-            "y": 0,
+            "x": 6000,
+            "y": 9000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
@@ -130,8 +186,8 @@
         "id": "examples-with-yeoman",
         "class": "step",
         "data": {
-            "x": 27000,
-            "y": 0,
+            "x": 6000,
+            "y": 12000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
@@ -144,10 +200,10 @@
         "id": "explore-break-things-learn",
         "class": "step",
         "data": {
-            "x": 30000,
-            "y": 0,
+            "x": 0,
+            "y": -6000,
             "z": 0,
-            "scale": 1,
+            "scale": 10,
             "rotate-x": 0,
             "rotate-y": 0,
             "rotate-z": 90
@@ -158,12 +214,12 @@
         "id": "juan-smash",
         "class": "step",
         "data": {
-            "x": 33000,
-            "y": 0,
+            "x": -5000,
+            "y": -6000,
             "z": 0,
-            "scale": 1,
+            "scale": 10,
             "rotate-x": 0,
-            "rotate-y": 0,
+            "rotate-y": -45,
             "rotate-z": 90
         }
     }

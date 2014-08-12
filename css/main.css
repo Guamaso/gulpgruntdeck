@@ -6,6 +6,12 @@
  * #42ED70
  */
 
+ html
+ {
+  font-size:0.9rem;
+
+ }
+
 body
 {
   font-family: 'Roboto', sans-serif;
@@ -17,6 +23,10 @@ body
 h1, h2, h3, h4, h5
 {
   font-family: 'Roboto Slab', sans-serif;
+}
+
+.impress
+{
 }
 
 .step.title h1
@@ -82,7 +92,7 @@ a:hover
 .hulk
 {
   color: #51BF28;
-  font-weight: 700;
+  font-family: 'Bangers', serif;
 }
 .list.emphasis
 {
@@ -92,4 +102,97 @@ a:hover
 {
   font-size:5rem;
   font-weight: 700;
+}
+
+.list.tree, .list.tree ul
+{
+  color: #444;
+  background-color: #fff;
+  font-size: 3rem;
+  font-family:  courier, serif;
+  list-style-type:none;
+}
+.list.tree
+{
+  border-left:none;
+}
+
+.list.tree ul
+{
+  border-left:1px solid #444;
+}
+
+.list.tree li:before
+{
+  content:"-";
+}
+
+.float-left
+{
+  float:left;
+}
+
+.float-right
+{
+  float:right;
+}
+
+img
+{
+  margin:1rem;
+}
+
+.fadein, .show-on-active
+{
+  display:none;
+}
+
+.present .fadein-on-active
+{
+  display:block;
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -moz-animation: fadein 2s; /* Firefox */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera */
+  animation: fadein 2s;
+}
+
+.past .show-on-past
+{
+  display:block;
+}
+
+.present .show-on-active
+{
+  display:block;
+}
+
+.present.lighten-all-but-this
+{
+
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.clear
+{
+  clear:both;
+}
+
+.centered
+{
+  text-align:center;
+  margin:0 auto;
+}
+
+.step .large
+{
+  font-size:10rem;
 }
