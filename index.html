@@ -21,7 +21,7 @@
 </head>
 
 <body>
-
+<div id="loading">Loading slides...</div>
 <div id="impress" class="steps">
 </div>
 
@@ -37,11 +37,19 @@
   </script>
 
   <script>
+  function loading_state(state)
+  {
+    state = state || "done"
+    if ( state === "done")
+    {
+      $("#loading").hide();
+    }
+  }
   // First, get sorted slide list
 
   $.getJSON('steps/list.json', function(data) {
     // Append ordered slides
-    appendSlides(data);
+    appendSlides(data, loading_state);
     impress().init();
     impressConsole().init();
   });
