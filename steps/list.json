@@ -84,14 +84,28 @@
         }
     },
     {
+        "uri": "thought-use-solutions-for-problems.html",
+        "id": "thought-use-solutions-for-problems",
+        "class": "step",
+        "data": {
+            "x": 3000,
+            "y": 6000,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 90,
+            "rotate-y": 0,
+            "rotate-z": 180
+        }
+    },
+    {
         "uri": "automate-your-automation.html",
         "id": "automate-your-automation",
         "class": "step",
         "data": {
-            "x": 3000,
-            "y": 9000,
+            "x": 4000,
+            "y": 8000,
             "z": 0,
-            "scale": 1,
+            "scale": 2,
             "rotate-x": 0,
             "rotate-y": 0,
             "rotate-z": 90
@@ -147,20 +161,6 @@
             "x": 1500,
             "y": 6000,
             "z": 0,
-            "scale": 4,
-            "rotate-x": 90,
-            "rotate-y": 0,
-            "rotate-z": 180
-        }
-    },
-    {
-        "uri": "thought-use-solutions-for-problems.html",
-        "id": "thought-use-solutions-for-problems",
-        "class": "step",
-        "data": {
-            "x": 1500,
-            "y": 6000,
-            "z": -3500,
             "scale": 4,
             "rotate-x": 90,
             "rotate-y": 0,
